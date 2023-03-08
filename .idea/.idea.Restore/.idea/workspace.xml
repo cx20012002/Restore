@@ -6,7 +6,19 @@
     <projectFile profileName="https">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e7acb18-2f46-419b-93b3-a9807827db81" name="Changes" comment="" />
+    <list default="true" id="9e7acb18-2f46-419b-93b3-a9807827db81" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/store.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/store.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/store/configureStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/store/configureStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/basket/BasketPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/basket/BasketPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/catalog/Catalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/catalog/Catalog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/catalog/ProductDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/catalog/ProductDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/ssl/localhost-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/ssl/localhost.pem" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,16 +27,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/API/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,7 +54,7 @@
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "C:\\Users\\cx200\\RiderProjects\\SuperStore-master\\client\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "/Users/thomaschen/RiderProjects/Restore/client/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -53,13 +62,13 @@
       "sqlite"
     ],
     "rider.external.source.directories": [
-      "C:\\Users\\cx200\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\cx200\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\cx200\\AppData\\Local\\Symbols\\src"
+      "/Users/thomaschen/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
+      "/Users/thomaschen/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache",
+      "/Users/thomaschen/.local/share/Symbols/src"
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="npm.client">
+  <component name="RunManager" selected=".NET Launch Settings Profile.API: https">
     <configuration name="API: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
@@ -104,6 +113,7 @@
       <workItem from="1678012819921" duration="28000" />
       <workItem from="1678012856710" duration="96000" />
       <workItem from="1678012961733" duration="28563000" />
+      <workItem from="1678263718528" duration="4095000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1677883149546</created>
