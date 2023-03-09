@@ -105,7 +105,7 @@ function ProductDetails() {
                             color={'primary'}
                             size={'large'}
                             variant={'contained'}
-                            loading={status.includes('pendingRemoveItem' + item?.productId)}
+                            loading={status.includes('pending')}
                             onClick={handleUpdateCart}
                             fullWidth
                         >
