@@ -7,16 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e7acb18-2f46-419b-93b3-a9807827db81" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/shelf/Uncommitted_changes_before_Update_at_9_03_23__5_42_pm__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/shelf/Uncommitted_changes_before_Update_at_9_03_23__5_42_pm__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/dataSources/93804153-df9e-4905-946b-699a2aacf771.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/dataSources/93804153-df9e-4905-946b-699a2aacf771.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/shelf/Uncommitted_changes_before_Update_at_9_03_2023_8_40_pm_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/shelf/Uncommitted_changes_before_Update_at_9_03_2023_8_40_pm__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/shelf/Uncommitted_changes_before_Update_at_9_03_23,_5_42_pm_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/shelf/Uncommitted_changes_before_Update_at_9_03_23__5_42_pm__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BasketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Data/DbInitialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Data/DbInitialization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Data/Migrations/StoreContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Data/Migrations/StoreContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Data/StoreContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Data/StoreContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/store.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/store.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/store.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/store.db-wal" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/api/agent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/api/agent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/basket/basketSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/basket/basketSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ssl/localhost-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/client/ssl/localhost-key.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ssl/localhost.pem" beforeDir="false" afterPath="$PROJECT_DIR$/client/ssl/localhost.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/models/Product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/models/Product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/router/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/router/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/catalog/Catalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/catalog/Catalog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/catalog/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/catalog/ProductList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/catalog/catalogSlice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/catalog/catalogSlice.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
@@ -33,6 +48,13 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7a403cba08345c96e825f152f83f7387ca90e5b98cf92f2d95fbedc8d25d24/ServiceCollectionServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ebcdc59aab8dd974d6496932718b1199011c49578a12dd180918c55a2ed2c/SecurityKey.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9d2fea339be9aa2b1d02e823321ffea2211afe1de339f754534e178023cd16/DbContextOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a499b7a12f93f54fbc8034f596cb127911b1e1c494b774568d6dbcbdf5a26fd/SymmetricSecurityKey.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f91195dc1f983d6ec69125bd192fea551738920a3ae32077f21c5af5b9/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,27 +68,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\cx200\\RiderProjects\\Restore\\client\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Users\\cx200\\RiderProjects\\Restore\\client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlite&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
     ],
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\cx200\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\cx200\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\cx200\\AppData\\Local\\Symbols\\src&quot;
+    "rider.external.source.directories": [
+      "C:\\Users\\cx200\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\cx200\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\cx200\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API: https">
     <configuration name="API: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
@@ -114,6 +137,8 @@
       <workItem from="1678012961733" duration="28563000" />
       <workItem from="1678263718528" duration="4095000" />
       <workItem from="1678277617660" duration="999000" />
+      <workItem from="1678707502368" duration="3043000" />
+      <workItem from="1678996157613" duration="116034000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1677883149546</created>
@@ -129,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677888171634</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="section5">
+      <created>1678349830240</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678349830240</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +201,26 @@
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="section5" />
+    <option name="LAST_COMMIT_MESSAGE" value="section5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/API/RequestHelpers/PagedList.cs</url>
+          <line>7</line>
+          <properties documentPath="C:\Users\cx200\RiderProjects\Restore\API\RequestHelpers\PagedList.cs" initialLine="7" containingFunctionPresentation="constructor 'PagedList'">
+            <startOffsets>
+              <option value="188" />
+            </startOffsets>
+            <endOffsets>
+              <option value="189" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
