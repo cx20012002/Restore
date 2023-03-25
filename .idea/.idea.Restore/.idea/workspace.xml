@@ -6,31 +6,31 @@
     <projectFile profileName="https">API/API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e7acb18-2f46-419b-93b3-a9807827db81" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/dataSources/93804153-df9e-4905-946b-699a2aacf771.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/dataSources/93804153-df9e-4905-946b-699a2aacf771.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/shelf/Uncommitted_changes_before_Update_at_9_03_2023_8_40_pm_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/shelf/Uncommitted_changes_before_Update_at_9_03_2023_8_40_pm__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/shelf/Uncommitted_changes_before_Update_at_9_03_23,_5_42_pm_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/shelf/Uncommitted_changes_before_Update_at_9_03_23__5_42_pm__Changes_.xml" beforeDir="false" />
+    <list default="true" id="9e7acb18-2f46-419b-93b3-a9807827db81" name="Changes" comment="Section 7">
+      <change afterPath="$PROJECT_DIR$/API/Extensions/BasketExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/store.db-shm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/store.db-wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/layout/SignedInMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/models/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/router/RequireAuth.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/features/account/accountSlice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Restore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ProductsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Data/DbInitialization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Data/DbInitialization.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Data/Migrations/StoreContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Data/Migrations/StoreContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Data/StoreContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Data/StoreContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BasketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/DTOs/UserDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/UserDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/store.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/store.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/store.db-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/store.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/api/agent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/api/agent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/models/Product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/models/Product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/layout/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/router/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/router/Routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/catalog/Catalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/catalog/Catalog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/catalog/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/catalog/ProductList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/features/catalog/catalogSlice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/catalog/catalogSlice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/store/configureStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/store/configureStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/account/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/account/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/account/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/account/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/basket/basketSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/basket/basketSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/features/catalog/ProductCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/features/catalog/ProductCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ebcdc59aab8dd974d6496932718b1199011c49578a12dd180918c55a2ed2c/SecurityKey.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9d2fea339be9aa2b1d02e823321ffea2211afe1de339f754534e178023cd16/DbContextOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a499b7a12f93f54fbc8034f596cb127911b1e1c494b774568d6dbcbdf5a26fd/SymmetricSecurityKey.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e74356f198b598e97eaeea83e8b7b1f2bfe27c0a39fedf86bb7dc44827fbda/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f91195dc1f983d6ec69125bd192fea551738920a3ae32077f21c5af5b9/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/cx200/RiderProjects/Restore/API/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -74,8 +76,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.526087",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "ts.external.directory.path": "C:\\Users\\cx200\\RiderProjects\\Restore\\client\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   },
@@ -90,6 +93,9 @@
     ]
   }
 }]]></component>
+  <component name="RiderProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
+  </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API: https">
     <configuration name="API: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
@@ -138,7 +144,11 @@
       <workItem from="1678263718528" duration="4095000" />
       <workItem from="1678277617660" duration="999000" />
       <workItem from="1678707502368" duration="3043000" />
-      <workItem from="1678996157613" duration="116034000" />
+      <workItem from="1678996157613" duration="122714000" />
+      <workItem from="1679489286043" duration="1892000" />
+      <workItem from="1679532099618" duration="22112000" />
+      <workItem from="1679698218609" duration="14407000" />
+      <workItem from="1679747866800" duration="2837000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1677883149546</created>
@@ -161,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678349830240</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="section 6">
+      <created>1679463364893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679463364893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,25 +219,31 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial" />
     <MESSAGE value="section5" />
-    <option name="LAST_COMMIT_MESSAGE" value="section5" />
+    <MESSAGE value="section 6" />
+    <MESSAGE value="Section 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/API/RequestHelpers/PagedList.cs</url>
-          <line>7</line>
-          <properties documentPath="C:\Users\cx200\RiderProjects\Restore\API\RequestHelpers\PagedList.cs" initialLine="7" containingFunctionPresentation="constructor 'PagedList'">
+          <url>file://$PROJECT_DIR$/API/Controllers/BasketController.cs</url>
+          <line>85</line>
+          <properties documentPath="C:\Users\cx200\RiderProjects\Restore\API\Controllers\BasketController.cs" initialLine="85" containingFunctionPresentation="method 'CreateBasket'">
             <startOffsets>
-              <option value="188" />
+              <option value="2299" />
             </startOffsets>
             <endOffsets>
-              <option value="189" />
+              <option value="2333" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

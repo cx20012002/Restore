@@ -2,24 +2,35 @@ import React from 'react';
 import {
     Avatar,
     Box,
-    Button,
     Container, Grid,
     Paper,
     TextField,
     Typography
 } from "@mui/material";
-import {Link} from "react-router-dom";
+import {Link, useLocation, useNavigate} from "react-router-dom";
 import {LockOutlined} from "@mui/icons-material";
+import {FieldValues, useForm} from "react-hook-form";
+import {LoadingButton} from "@mui/lab";
+import {useAppDispatch} from "../../app/store/configureStore";
+import {signInUser} from "./accountSlice";
 
 function Login() {
-    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-        event.preventDefault();
-        const data = new FormData(event.currentTarget);
-        console.log({
-            email: data.get('email'),
-            password: data.get('password'),
-        });
-    };
+    const navigate = useNavigate();
+    const location = useLocation();
+    const dispatch = useAppDispatch();
+    const {register, handleSubmit, formState: {isSubmitting, errors, isValid}} = useForm({
+        mode: "onTouched"
+    });
+
+    async function submitForm(data: FieldValues) {
+        try {
+            await dispatch(signInUser(data));
+            navigate(location.state?.from || '/catalog');
+        } catch (error) {
+            console.log(error);
+        }
+
+    }
 
     return (
         <Container component={Paper} maxWidth="sm"
@@ -28,35 +39,39 @@ function Login() {
                 <LockOutlined/>
             </Avatar>
             <Typography component="h1" variant="h5"> Sign in </Typography>
-            <Box component="form" onSubmit={handleSubmit} noValidate sx={{mt: 1}}>
+            <Box component="form" onSubmit={handleSubmit(submitForm)} noValidate sx={{mt: 1}}>
                 <TextField
                     margin="normal"
-                    required
                     fullWidth
-                    id="email"
-                    label="Email Address"
-                    name="email"
-                    autoComplete="email"
+                    label="Username"
                     autoFocus
+                    {...register('username', {
+                        required: 'Username is required'
+                    })}
+                    error={!!errors.username}
+                    helperText={errors?.username?.message as string}
                 />
                 <TextField
                     margin="normal"
-                    required
                     fullWidth
-                    name="password"
                     label="Password"
                     type="password"
-                    id="password"
-                    autoComplete="current-password"
+                    {...register('password', {
+                        required: 'Password is required'
+                    })}
+                    error={!!errors.username}
+                    helperText={errors?.username?.message as string}
                 />
-                <Button
+                <LoadingButton
+                    disabled={!isValid}
+                    loading={isSubmitting}
                     type="submit"
                     fullWidth
                     variant="contained"
                     sx={{mt: 3, mb: 2}}
                 >
                     Sign In
-                </Button>
+                </LoadingButton>
                 <Grid container>
                     <Grid item>
                         <Link to={'/register'}>
